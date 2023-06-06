@@ -3,7 +3,7 @@ let listul = document.getElementById("list");
 function todo() {
   let inp = document.getElementById("inp");
   if(inp.value.length===0){
-    alert('boshdur')
+    alert('empty')
   }else{
     list.push(inp.value);
     Display()
