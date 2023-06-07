@@ -1,5 +1,6 @@
+"use strict"
 let list = [];
-let listul = document.getElementById("list");  
+let listul = document.getElementById("list");
 function todo() {
   let inp = document.getElementById("inp");
   if(inp.value.length===0){
@@ -24,5 +25,14 @@ function Display(){
     }
     listul.innerHTML = data;
 
-
 }
+
+// let nums = [1, 2, 3, 4];
+// let sum=0;
+// for(let i =0;i<9;i++){
+//   let num= nums.slice(nums.length-3);
+//   sum=num.reduce((a,b)=>a+b);
+//   nums.push(sum)
+
+// }
+// console.log(nums)
